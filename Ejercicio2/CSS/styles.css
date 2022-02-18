@@ -1,0 +1,36 @@
+div{
+    height: 250px;
+    width: 500px;
+    text-align: center;
+}
+
+.static{
+    position: static;
+    background-color:rgba(0, 128, 0, 0.514);
+}
+
+.relative{
+    position: relative;
+    left:700px;
+    top:150px;
+    background-color:rgba(0, 255, 255, 0.507);
+}
+
+.absolute{
+    position: absolute;
+    left:1000px;
+    top: 100px;
+    background-color:rgba(255, 0, 0, 0.507);
+}
+
+.fixed{
+    position: fixed;
+    left:400px;
+    background-color: rgba(128, 0, 128, 0.514);
+}
+
+.sticky{
+    position: sticky;
+    left:500px;
+    background-color: rgba(49, 46, 4, 0.541);
+}

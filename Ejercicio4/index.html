@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="image">
+            <img alt="Palmera de Chocolate" src="https://s3-eu-west-1.amazonaws.com/carritus.com/images_pms/70/59391570.jpg"/>
+        </div>
+        <div class="titulo">
+            <h3>Palmera de cacao</h3>
+        </div>
+        <div class="descripcion">
+            <span>Pieza de 425g</span>
+        </div><br>
+        <div class="precio">
+            <span class="numeroPrecio">1,75€</span><span class="unidad"> /ud</span>
+        </div><br>
+        <div class="botonera">
+            <button  id="boton1" class="botonAdd" onclick="mostrarBotones();">Añadir al carro</button>
+            <div id="botonesEscondidos" class="contenedorBotones">
+                <table>
+                    <tr>
+                        <td> <div class="carro">
+                            <span>En carro</span><div id="cantidadTotal"><span id="cantidad">1 </span><span id="unidades">ud.</span></div>
+                        </div></td>
+                        <td>
+                            <div class="botonesFinales">
+                                <button onclick="eliminarCompra();">E</button>
+                                <button onclick="addProducto();">&#10133;</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+               
+                
+            </div>
+        </div>
+    </div>
+    <script src="JS/main.js" type="text/javascript"></script>
+</body>
+</html>
