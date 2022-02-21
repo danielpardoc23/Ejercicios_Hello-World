@@ -1,3 +1,4 @@
-# basic-web-template
+# Ejercicio5_Hello-World
 
-Repositorio con la estructura básica de una página web para probar ejemplos con HTML, CSS y Javascript nativo
+Introducción a grid.
+Meidante efecto Hover, cambiar tamaño de determinados cuadrados con grid-area

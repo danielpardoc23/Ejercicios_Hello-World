@@ -1,3 +1,7 @@
+body{
+    font-family:calibri;
+}
+
 .contenedor{
     display: flex;
     justify-content:space-between;
@@ -48,6 +52,10 @@ img{
     background-color: yellow;
     color: brown;
     font-size: x-large;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 #botonesEscondidos{

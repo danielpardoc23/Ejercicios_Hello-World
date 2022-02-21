@@ -1,3 +1,39 @@
-h1 {
-    color: red;
+.grid-container{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:max-content;
+}
+
+.grid-container div:nth-child(odd){
+    background-color: #668985;
+}
+
+.grid-container div:nth-child(odd):hover{
+    background-color: coral;
+    height: 100%;
+}
+
+.grid-container div:nth-child(even){
+    background-color: #F0F7C3;
+}
+
+.grid-container > div{
+    text-align: center;
+    height: 60px;
+}
+
+.item1:hover{
+    grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.item3:hover{
+    grid-area: 1 / 2 / span 2 / span 2;
+}
+
+.item7:hover{
+    grid-area: 3 / 1 / span 2 / span 2;
+}
+
+.item9:hover{
+    grid-area: 3 / 2 / span 2 / span 2;
 }
